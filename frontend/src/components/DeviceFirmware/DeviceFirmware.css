@@ -1,0 +1,16 @@
+.button {
+  display: flex;
+  justify-content: flex-start;
+  margin: 16px;
+  position: absolute;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.btnpump {
+  margin-right: 2rem;
+}
+
+.table {
+  margin-top: 5%;
+}

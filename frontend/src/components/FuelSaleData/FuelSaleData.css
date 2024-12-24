@@ -1,0 +1,78 @@
+.fuelsaledata {
+    position: relative;
+    overflow: auto;
+}
+
+.main {
+    display: flex;
+    justify-content: left;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+}
+
+.table {
+    display: block;
+    overflow: hidden;
+    width: 90%;
+    margin: 1rem;
+    padding-top: 1rem;
+}
+
+.box {
+    margin-left: 1rem;
+    display: block;
+}
+
+.Button {
+    padding: 0.7rem;
+}
+
+
+
+.scrollbar {
+    width: auto
+}
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+    width: auto;
+}
+
+/* Background color of the scrollbar track */
+::-webkit-scrollbar-track {
+    background: whitesmoke;
+}
+
+/* Color of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: #a9a9a9;
+}
+
+/* Rounded corners of the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+    background: #2d4893;
+}
+
+@media screen and (max-width: 1200px) {
+    .fuelsaledata {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        display: block;
+    }
+
+    .title {
+        margin-inline-start: 3.5rem;
+        margin-top: -0.5rem;
+        font-size: 1rem;
+    }
+
+    #Box {
+        justify-content: left;
+    }
+}

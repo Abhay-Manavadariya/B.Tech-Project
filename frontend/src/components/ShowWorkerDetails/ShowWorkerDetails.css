@@ -1,0 +1,12 @@
+.ShowWorkerDetails {
+  position: relative;
+  overflow: auto;
+}
+
+.table {
+  display: block;
+  overflow: hidden;
+  width: 90%;
+  margin: 1rem;
+  padding-top: 1rem;
+}

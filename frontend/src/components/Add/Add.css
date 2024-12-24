@@ -1,0 +1,51 @@
+.Add {
+    position: relative;
+    overflow: auto;
+}
+
+.main {
+    display: flex;
+    justify-content: left;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-start;
+    margin: 16px;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.btnpump {
+    margin-right: 2rem;
+}
+
+.model {
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 2%;
+}
+
+.select{
+    margin-left: 40%;
+    width: 13rem;
+    font-size:initial;
+}
+
+.DateForAdd{
+    margin-left: 37%;
+    width: 11rem;
+    font-size:25px;
+}
+
+.text{
+    height: 30px;
+    margin-left: -22%;
+    font-size: 25px;
+}
+

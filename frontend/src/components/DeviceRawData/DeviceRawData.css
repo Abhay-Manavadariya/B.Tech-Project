@@ -1,0 +1,56 @@
+.DeviceRawData {
+  position: relative;
+  overflow: auto;
+}
+
+.main {
+  display: flex;
+  justify-content: left;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+}
+
+.Button {
+  padding: 0.7rem;
+}
+
+.table {
+  display: block;
+  overflow: hidden;
+  width: 90%;
+  margin: 1rem;
+  padding-top: 1rem;
+}
+
+.box {
+  margin-left: 1rem;
+  display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  .DeviceRawData {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .DeviceRawData {
+    align-items: center;
+  }
+
+  .main {
+    display: block;
+  }
+
+  .title {
+    margin-inline-start: 3.5rem;
+    margin-top: -0.5rem;
+    font-size: 1rem;
+  }
+
+  #Box {
+    justify-content: left;
+  }
+}

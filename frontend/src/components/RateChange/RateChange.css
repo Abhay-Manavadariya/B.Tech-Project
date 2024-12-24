@@ -1,0 +1,71 @@
+.RateChange {
+    position: relative;
+    overflow: auto;
+}
+
+.main {
+    display: flex;
+    justify-content: left;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.dropdown {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    display: block;
+    width: 45%;
+    height: 22%;
+}
+
+.table {
+    display: block;
+    padding: 0rem;
+    text-align: left;
+    margin: 2.2%;
+    color: antiquewhite;
+}
+
+#td{
+    width: 14rem;
+}
+
+.td{
+    padding: 10px;
+    text-align: center;
+}
+
+.selection{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn{
+    margin: auto;
+    margin-top: 35px;
+}
+.btn:hover{
+    background-color: rgb(141, 196, 224);
+}
+@media screen and (max-width: 1200px) {
+    .RateChange {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        display: block;
+    }
+
+    .title {
+        margin-inline-start: 3.5rem;
+        margin-top: -0.5rem;
+        font-size: 1rem;
+    }
+}
